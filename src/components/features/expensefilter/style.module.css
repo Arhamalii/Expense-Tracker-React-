@@ -1,0 +1,20 @@
+.filter-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.filter-data h3 {
+  color: #333;
+}
+
+.no-data {
+  background-color: red;
+  color: #eee;
+}
+
+.data {
+  background-color: #333;
+  color: #eee;
+}

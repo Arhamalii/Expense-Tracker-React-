@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(238, 238, 238, 0.4);
+  margin: 5rem auto;
+  border-radius: 1.5rem;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+/*  for responsiveness */
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 500px;
+    border-radius: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 400px;
+    border-radius: 1.2rem;
+  }
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 300px;
+    border-radius: 1.2rem;
+  }
+  html {
+    font-size: 60%;
+  }
+}
